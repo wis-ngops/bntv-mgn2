@@ -1,0 +1,94 @@
+body{
+    background-color: #ffffff;
+  }
+  
+  @media (min-width : 992px) {
+    #livelogo{
+      visibility: hidden;
+      display: none;
+    }
+    
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+    }
+  }
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(0, 0, 0, .2);
+      transform    : translateX(-100%);
+    }
+  }
+  
+  
+  @font-face {
+    font-family: Gotham-Black;
+    src: url(font/Gotham-Black.otf);
+  }
+  
+  @font-face {
+    font-family: Gotham-Medium;
+    src: url(font/GothamMedium.ttf);
+  }
+  
+  @font-face {
+    font-family: Gotham-Light;
+    src: url(font/Gotham-Light.otf);
+  }
+  
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #000000;
+    border-radius: 2px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+
+.card-img-overlay{
+    left: 10%;
+    top: 70% !important;
+    transform: translateY(-30%);
+    text-align: left;
+    bottom: initial;
+    text-align: left ;
+}
+
+.text{
+    left: 10%;
+    top: 50% !important;
+    transform: translateY(-30%);
+    text-align: left;
+    bottom: initial;
+}
+
+.text h2 {  
+    margin: 0px ;
+    padding: 0px ;
+    text-align: left ;
+    font-size: 36px;
+}
+
+#banner_privacy{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0)5%, rgba(0, 0, 0, 0.73) 90%),
+    url('https://blog.kingland.com/hubfs/Business-Relationships_Insurance-Blog-Hero-1.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    color: white;
+    background-position: center;
+}
+
+ 

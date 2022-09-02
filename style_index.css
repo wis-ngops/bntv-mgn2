@@ -1,0 +1,62 @@
+body{
+    background-color: #e2e2e2;
+  }
+  
+  @font-face {
+    font-family: Gotham-Black;
+    src: url(font/Gotham-Black.otf);
+  }
+  
+  @font-face {
+    font-family: Gotham-Medium;
+    src: url(font/GothamMedium.ttf);
+  }
+  
+  @font-face {
+    font-family: Gotham-Light;
+    src: url(font/Gotham-Light.otf);
+  }
+  
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #000000;
+    border-radius: 2px;
+}
+
+@media (min-width : 992px) {
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+    }
+}
+
+@media (max-width : 992px) {
+  .offcanvas {
+    width : 250px !important;
+  }
+  .offcanvas-start-lg {
+    top          : 0;
+    left         : 0;
+    border-right : 1px solid rgba(0, 0, 0, .2);
+    transform    : translateX(-100%);
+  }
+
+  #customView{
+      visibility: hidden;
+      display: none;
+  }
+}
+  
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ 
+#date_icon{
+    padding-left: 20px;
+}
